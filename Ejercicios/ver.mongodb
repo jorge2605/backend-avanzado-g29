@@ -1,0 +1,3 @@
+use('sample_colector')
+
+db.colection.find({nombre: /padrino/})

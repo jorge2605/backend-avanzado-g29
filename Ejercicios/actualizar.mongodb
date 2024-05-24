@@ -1,0 +1,5 @@
+use('sample_colector')
+
+// db.colection.updateOne({nombre: 'El padrino'}, {$set:{duracion: 120}})
+
+db.colection.updateOne({nombre: 'Nuestra pandilla'}, {$push: {actores: 'Jorge Santacruz'}})

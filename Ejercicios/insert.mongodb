@@ -1,0 +1,80 @@
+use('sample_colector')
+
+db.colection.insertMany([
+    {
+        nombre: 'El juego perfecto',
+        genero: 'Deportes',
+        soportes: 'Jorge santacruz',
+        director: 'William Dear',
+        duracion: 157,
+        actores: [
+            'Clifton Collins',
+            'Cheech Marin',
+            'Jake T. Austin',
+            'Moises Arias',
+            'Gabriel Morales',
+            'Ryan Ochoa',
+            'Carlos Padilla'
+        ],
+        descripcion: 'Trata sobre la vida y el triunfo de los campeones de Monterrey, que ganaron la Serie Mundial de Pequeñas Ligas de beisbol llevada a cabo en Williamsport, Pensilvania en 1957.'
+    },
+    {
+        nombre: 'Curvas de la vida',
+        genero: 'Drama',
+        soportes: 'Jorge santacruz',
+        director: 'Robert Lorenz',
+        duracion: 111,
+        actores: [
+            'Clint Eastwood',
+            'Amy Adams',
+            'Justin Timberlaks',
+            'Matthew Lillard',
+            'Robert Patrick',
+            'Scott Eastwood'
+        ],
+        descripcion: 'Un veterano cazatalentos del equipo de béisbol Atlanta Braves llamado Gus Lobel (Clint Eastwood) se dispone a confirmar si aún tiene valor como cazatalentos a pesar de su edad y su incipiente ceguera. Gus, a regañadientes, lleva a su hija, la brillante abogada Mickey (Amy Adams), en su último viaje a Carolina del Norte para descubrir a un nuevo talento, Bo Gentry (Joe Massingill).'
+    },
+    {
+        nombre: 'Nuestra pandilla',
+        genero: 'Aventura infantil',
+        soportes: 'Jorge santacruz',
+        director: 'David Mickey Evans',
+        duracion: 101,
+        actores: [
+            'Tom Guiry',
+            'Mike Vitar',
+            'Patrick Renna',
+            'Chauncey Leopardi',
+            'Marty York',
+            'Brandon Quintin Adams'
+        ],
+        descripcion: 'En el año 1962 Scotty Smalls (Tom Guiry), un estudiante de quinto grado, se traslada a una nueva ciudad con sus padres (Karen Allen y Denis Leary). Los chicos del sector comienzan a llamarlo «Memo» (o por su apellido, Smalls, en Latinoamérica), ya que no sabía lanzar una pelota de béisbol. Pero todo cambia cuando el líder de la pandilla del barrio Benjamín (Mike Vitar) le pide que juegue con ellos en el terreno baldío del barrio.'
+    },
+    {
+        nombre: 'Nuestra pandilla 2',
+        genero: 'Aventura infantil',
+        soportes: 'Jorge santacruz',
+        director: 'David Mickey Evans',
+        duracion: 98,
+        actores: [
+            'Max Lloyd-Jones',
+            'James Willson',
+            'Samanta Burton',
+            'Brett Kelly',
+            'Cole Evan Weiss',
+            'Neilen Benvegnu'
+        ],
+        descripcion: 'Han pasado 10 años de la primera aventura, ya es el año 1972 y David se integra a un grupo de chicos que juegan a béisbol, los cuales están en contra de las chicas. Tras días de estar en guerra, ambos bandos se unen para combatir a otro grupo que les quiere quitar el terreno. Ya siendo amigos, uno de los chicos decide poner en órbita un cohete de juguete creado por el padre de Hellie, el cual puede ser el futuro de la NASA.'
+    }
+    // {
+    //     nombre: '',
+    //     genero: '',
+    //     soportes: 'Jorge santacruz',
+    //     director: '',
+    //     duracion: ,
+    //     actores: [
+
+    //     ],
+    //     descripcion: ''
+    // }
+])

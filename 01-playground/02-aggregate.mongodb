@@ -1,0 +1,30 @@
+//Aggregations en mongodb
+//Es el equivalente al Group  BY
+
+use('miapp')
+
+db.users.aggregate([
+    {
+        $group: {
+            _id: "$username",
+            count: { $sum: 1}
+        }
+    }
+])
+
+//Aggretation Pipeline
+//es una lista de operaciones de mongo db aplica a una lista de documentos
+
+db.users.aggregate([
+    //etapta 1
+    {
+        $group: {
+            _id: "$username",
+            count: { $sum: 1}
+        }
+    },
+    //Estapa 2
+    {
+        $sort: {count: -1 }
+    }
+])

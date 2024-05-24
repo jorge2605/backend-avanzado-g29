@@ -1,0 +1,4 @@
+//Eliminar documentos de MongoDB
+use('miapp')
+
+db.users.deleteOne({username: 'Jorge'})

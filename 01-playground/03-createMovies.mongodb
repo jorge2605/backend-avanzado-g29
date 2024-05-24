@@ -1,0 +1,34 @@
+//Insertar documentos en mongodb
+use('miapp')
+
+// db.users.insertOne(
+//     {
+//         username: 'Daisy Valeria',
+//         edad: 25,
+//         __v: 2
+//     }
+// )
+
+// db.users.findOne({ _id: ObjectId('6646af6fd2deaec9ca421317')})
+
+// //para insertar varios documentos se usa insertMain
+
+// db.users.insertMany([
+//     {
+//         username: 'Christrian',
+//         edad: 22,
+//         __v: 1
+//     },
+//     {
+//         username: 'Denisse',
+//         edad: 21,
+//         __v: 3
+//     },
+//     {
+//         username: 'Carolina',
+//         edad: 48,
+//         __v: 1
+//     }
+// ])
+
+db.users.find({username: /Daisy/ })

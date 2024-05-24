@@ -1,0 +1,5 @@
+use('miapp')
+
+// db.users.updateOne({username: 'Daisy Valeria'}, {$set:{edad: 15}})
+
+db.users.updateMany({username: /Daisy/},{$set:{edad: 12, __v: 5}})

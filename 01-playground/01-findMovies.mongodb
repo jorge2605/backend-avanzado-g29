@@ -1,0 +1,16 @@
+use('miapp')
+
+//Buscar un solo documento 
+//findOne() devuelve el primer documentro que cumple con los criterrios
+// db.users.findOne({ username: "Jorge"})
+
+// db.users.findOne({_id: ObjectId('659762041daae68a1e13e3a2')})
+
+// db.users.find().limit(1)
+
+// db.users.find().count()
+
+db.users.find({}, {tittle: 1})
+
+db.users.find({rated: 'PG'}).count()
+
