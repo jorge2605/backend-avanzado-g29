@@ -4,8 +4,8 @@ const movieSchema = new mongoose.Schema({
   name: { type: String, require: true },
   genero: { type: String },
   director: { type: String, require: true },
-  duracion: String,
-  actores: { type: String, require: true },
+  duracion: Number,
+  actores: { type: JSON, require: true },
   descripcion: String
 })
 
